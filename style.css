@@ -1,0 +1,184 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* // First Section // */
+
+.mission-color {
+    color: orange;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.mission-area {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 100px;
+    /* margin-top: 100px; */
+}
+
+.half-width img {
+    width: 500px;
+}
+
+.half-width h1 {
+    font-size: 60px;
+    margin-left: 15px;
+}
+
+.link-btn {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+#focused {
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, blue);
+    border-image-slice: 1;
+}
+
+.inner-padding {
+    padding: 50px;
+}
+
+
+/* // Second Section // */
+
+.card-area {
+    display: flex;
+    margin-left: 150px;
+}
+
+.card-post {
+    width: 300px;
+    margin-left: 40px;
+    /* border: 1px solid blanchedalmond; */
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.card-post img {
+    width: 180px;
+    margin-left: 0;
+}
+
+.my-mission {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+#card-one {
+    background-color: #EDF5F6;
+}
+
+#card-two {
+    background-color: #FFEEEE;
+    margin-left: 30px;
+}
+
+#card-three {
+    background-color: #FFF4D5;
+    margin-left: 30px;
+}
+
+/* //Third Section //  // Four Section // */
+
+.blog-area {
+    display: flex;
+    /* margin-top: 150px; */
+    margin-left: 100px;
+
+}
+
+.half-width-image {
+    width: 30%;
+}
+
+.half-width-image img {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.half-width-post {
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+.half-width-post h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.half-width-post p {
+    font-size: 20px;
+}
+
+.build-corona {
+    text-align: center;
+    font-size: 60px;
+    /* font-weight: 900; */
+}
+
+#banner-image {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+}
+
+#banner-background {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+}
+
+/* // Fifth Section // */
+.app-area {
+    display: flex;
+}
+
+
+.half-width-app {
+    width: 50%;
+    padding: 50px;
+}
+
+.half-width-app img {
+    width: 60%;
+    margin-left: 150px;
+}
+
+.half-width-app-post {
+    width: 50%;
+    padding: 100px;
+}
+
+.half-width-app-post h2 {
+    font-size: 50px;
+}
+
+/* // Footer Area // */
+.footer-area {
+    height: 180px;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.footer-area h1 {
+    font-size: 30px;
+}
